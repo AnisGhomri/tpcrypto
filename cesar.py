@@ -27,12 +27,12 @@ def cesar(text):
             space+=1
             continue
 
-        '''
+        
         if caracter == "’" :
            
             space+=1
             continue
-        '''
+        
 
         position = ord(caracter) - 97
         
@@ -94,4 +94,4 @@ def cesar(text):
 
 
 
-cesar("zuaz ga rutm jk ikz uabxgmk p azoroyk jky mxgtjy tushxky vuax jkixoxk jollkxktzy vuotzykt ixevzumxgvnok or kyz goyk jk vkxjxk jk bak ruxjxk jk mxgtjkax jk iky mxgtjy tushxkyrk zghrkga sutzxk rky kwaobgrktzy jky mxgtjy tushxky sgtovarky kt ixevzumxgvnokvgx xgvvuxz g jky mxgtjy tushxky kt vneyowakiky tushxky yutz jky kyzosgzouty juxjxk jk mxgtjkax ay utz kzk vaoyky jgty jollkxktzkyyuaxiky rg vravgxz jky tushxky bktgtz jk rgyzxuvneyowak yutz kdvrowaky jgty r gxzoirkjk lxkksgt je yu t zosk coznuaz ktj vneyoiy gtj hourume ot gt uvkt atobkxyk jgty xkbokcy ul sujks vneyoiy burask taskxu paorrkz vgmky g rky tushxky otjowaky vuax rky giiojktzy jk rg ioxiargzout utz kzk igriarky g vgxzox jkyyzgzoyzowaky iurrkizkky vgx rk sotoyzkxk jky zxgtyvuxzy gskxoigot suxzy vgx sorroutjk vkxyuttky kt kz atk rutmkbozk suekttk jk gttkky")
+cesar("zuaz ga rutm jk ikz uabxgmk p ’azoroyk jky mxgtjy tushxky vuax jkixoxk jollkxktzy vuotzykt ixevzumxgvnok or kyz goyk jk vkxjxk jk bak r’uxjxk jk mxgtjkax jk iky mxgtjy tushxkyrk zghrkga sutzxk rky kwaobgrktzy jky mxgtjy tushxky sgtovarky kt ixevzumxgvnokvgx xgvvuxz g jky mxgtjy tushxky kt vneyowakiky tushxky yutz jky kyzosgzouty j’uxjxk jk mxgtjkax ay utz kzk vaoyky jgty jollkxktzkyyuaxiky rg vravgxz jky tushxky bktgtz jk r’gyzxuvneyowak yutz kdvrowaky jgty r ’gxzoirkjk lxkksgt je yu t zosk coznuaz ktj vneyoiy gtj hourume ot gt uvkt atobkxyk jgty xkbokcy ul sujks vneyoiy burask taskxu paorrkz vgmky g rky tushxky otjowaky vuax rky giiojktzy jk rg ioxiargzout utz kzk igriarky g vgxzox jkyyzgzoyzowaky iurrkizkky vgx rk sotoyzkxk jky zxgtyvuxzy gskxoigot suxzy vgx sorroutjk vkxyuttky kt kz atk rutmkbozk suekttk jk gttkky ")
