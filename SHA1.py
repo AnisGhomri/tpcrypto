@@ -67,4 +67,4 @@ def sha1(data):
 
     return '%08x%08x%08x%08x%08x' % (h0, h1, h2, h3, h4)
 
-print( sha1("HBIB"))
+print( sha1("ghomri anis"))
